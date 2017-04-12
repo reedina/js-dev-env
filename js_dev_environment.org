@@ -19,8 +19,12 @@ nsp check
 
 * Dev Web Servers
 - run express
+- how do you share this with others?
+I need to be able to push my code to git and have kubernetes setup
+
 
 * Automation
+- task automation
 
 
 * Transpiling
@@ -32,7 +36,7 @@ nsp check
 * Linting
 
 
-*  Unit Testing
+* Unit Testing
 
 
 * CI server
