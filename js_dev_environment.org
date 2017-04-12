@@ -26,6 +26,28 @@ I need to be able to push my code to git and have kubernetes setup
 * Automation
 - task automation
 
+** npm scripts - BEST CHOICE for automation
+- use "npm scripts" to automate
+- declared in the package.json
+- leverage your OS's command line
+
+*** why npm scripts?
+https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8
+- use tools directly
+- no need for separate plugins
+- simpler debugging
+- better docs
+- easier to learn
+- can call separate scripts that use node
+
+** gulp
+- improves on grunt
+- configured via a grunt file
+- very popular
+
+
+** grunt
+- task runner
 
 * Transpiling
 
