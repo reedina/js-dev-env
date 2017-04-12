@@ -1,4 +1,4 @@
-var express = require('express');h
+var express = require('express');
 var path = require('path');
 var open = require('open');
 
