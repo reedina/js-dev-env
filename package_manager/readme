@@ -1,0 +1,6 @@
+#-------------------------------------------------
+#  ReadMe
+#-------------------------------------------------
+
+- create a package.json in the root of your development directory
+- store all the default packages you need
