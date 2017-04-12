@@ -41,6 +41,8 @@ https://medium.freecodecamp.com/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853
 - can call separate scripts that use node
 
 
+*** run multiple scripts at once
+runall package
 ** gulp
 - improves on grunt
 - configured via a grunt file
