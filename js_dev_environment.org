@@ -1,0 +1,47 @@
+* Editor
+- use vscode
+- Add .editorconfig
+* Package Mangement
+- use npm
+- setup a default package.json needed for
+  all projects
+** scanning package for vulnerabilities
+- use "node security platform"
+- run "nsp check" as part of your build
+- may want to add it as part of your "npm start" script
+- install nsp globally to run the commanline tool.
+
+sudo npm install nsp -g
+
+- to run nsp do this:
+
+nsp check
+
+* Dev Web Servers
+
+
+* Automation
+
+
+* Transpiling
+
+
+* Bundling
+
+
+* Linting
+
+
+*  Unit Testing
+
+
+* CI server
+
+
+* http requests
+
+
+* production builds
+
+
+* automated deploy
