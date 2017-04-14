@@ -98,6 +98,35 @@ for the web.  takes commonJS format of node and makes it accessible to the brows
 - also, bundles css, images, etc like JS
 - includes a hot-reloading web server
 - webpack will bundle all our assets up into a single file that runs in our target environment
+- webpack is defined via a single object we define in the webpack config file.
+**** webpack.config.dev.js
+/*
+- webpack exports a single configuration object
+
+*/
+import path from 'path';
+
+export default {
+  debug: true,
+  devtool: 'inline-source-map',
+  noInfo: false,
+  entry: [
+    path.resolve(__dirname, 'src/index')
+  ],
+  target: 'web',
+  output: {
+    path: path.resolve(__dirname, 'src'),
+    publicPath: '/',
+    filename: 'bundle.js'
+  },
+  plugins: [],
+  module: {
+    loaders: [
+      {test: /\.js$/, exclude: /node_modules/, loaders: ['babel']},
+      {test: /\.css$/, loaders: ['style','css']}
+    ]
+  }
+}
 
 
 
