@@ -163,6 +163,7 @@ export default {
 a wrapper around eslint that adds watching capability
 
 ** eslint-loader
+
 * Unit Testing
 
 
