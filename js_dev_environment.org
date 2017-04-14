@@ -55,9 +55,59 @@ runall package
 
 
 * Transpiling
-
+- babel which supports latest js
+- typescript
 
 * Bundling
+- bundled up for usage.
+- commonJS pattern does not work in web browsers, but does work in node
+ - you need to bundle npm packages into a format that the browser can consume
+- package any javascript into a single file or startegically into separate files
+
+** module formats
+*** AMD
+*** CommonJS
+used by node.js
+
+*** UMB
+*** IIFE (immediately invoked function expressions)
+
+// this is an IIFE
+
+(function(){
+// my code here
+})();
+
+***  ES6 modules
+**** standardized
+**** statically analyzable
+  improved autocomplete
+  intelligent refactoring
+**** easy to read
+
+
+** names of bundlers
+bundle up code into single minified file. you can use npm packages and they are bundled up
+for the web.  takes commonJS format of node and makes it accessible to the browser.
+
+*** require.js
+- amd based
+
+*** webpack
+- Bundles js
+- also, bundles css, images, etc like JS
+- includes a hot-reloading web server
+- webpack will bundle all our assets up into a single file that runs in our target environment
+
+
+
+*** browserify
+- first bundle to reach mass adoption
+- utilize npm packages on the web
+
+*** jspm
+
+*** rollup
 
 
 * Linting
