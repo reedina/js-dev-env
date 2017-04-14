@@ -129,6 +129,11 @@ export default {
 }
 
 
+**** How do you debug transpiled and bundled code?
+- the answer to doing that would be "sourcemaps"
+
+- "sourcemaps" map the bundled, transpiled and minified code back to the original source
+- sourcemaps map code back to the original source
 
 *** browserify
 - first bundle to reach mass adoption
