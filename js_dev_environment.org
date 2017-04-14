@@ -145,8 +145,24 @@ export default {
 
 
 * Linting
+- ESlint for linting JS
+   eslint does not have watching capailbity
+
+- TSlint for linting typescript
 
 
+
+** ESlint decisions to make
+- config format
+- which built-in rules to use
+- use warnings or errors
+- which plugins to use
+- use preset instead ?
+
+** eslint-watch
+a wrapper around eslint that adds watching capability
+
+** eslint-loader
 * Unit Testing
 
 
