@@ -15,6 +15,6 @@
     "mocha": true
   },
   "rules":{
-    "no_console": 1
+    "no_console": 0
   }
 }
