@@ -167,10 +167,71 @@ a wrapper around eslint that adds watching capability
 
 
 * Unit Testing
+** Other types of testing
+*** Integration testing
+- focus on the  interactions between modules
+- connect to api
+- spin up selenium
+
+*** UI testing
+- automated interactions with the UI
+- selenium for browser automation
+
+** Unit testing focus on what?
+Unit testing focus on a single function or module in an automated fashion
+
+** Unit Test Decisions
+*** framework
+**** mocha most popular
+does NOT include an assertion library
+
+****  jasmine
+includes an assertion library
+
+**** ava
+- run tests in parallel
+
+
+*** assertion library
+- mocha does not come with an assertion library
+**** chai
+the most popular assertion library
+
+
+*** helper libraries
+****  jsdom
+**** cheerio
+jquery for the server
+
+
+*** where to run tests
+**** browser
+- karma
+- testem
+
+**** headless browser
+- phamtomJS
+
+**** in-memory DOM
+just simpulating a dom in memory not a full browser
+
+- JSDOM
+
+
+
+
+
 
 
 * CI server
+- builds application automatically the moment you commit
+- runs test suite
+- check code coverage
+- automate deployment
 
+** CI servers
+- travis (hosted)
+- jenkins
 
 * http requests
 
