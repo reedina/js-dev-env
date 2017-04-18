@@ -257,7 +257,42 @@ just simpulating a dom in memory not a full browser
 
 ** centralize API calls
 
+** why mock http calls?
+- you would do this for "unit testing"
+- instant response
+** how to mock http calls
+- api-mock
+- JSON server
+- JSON schema faker
+
+*** Nock to mock http calls for your unit tests
+
+** plan for mocking http
+*** declare our schema
+json schema faker
+*** generate random data
+faker.js
+chance.js
+randexp.js
+
+*** serve data via api
+json server
+
+
 * production builds
 
 
 * automated deploy
+
+* WORK
+** last time
+- working on the template environment for the microservice
+
+** was out friday and yesterday moving; been stuck dealing with the move for the past few days.
+
+** today
+continue working on the template for microservice and keep moving ahead towards the
+sprint goals
+
+- did do the demo/overview of the architecture the other day.
+- I have this next one a week from this thursday.
