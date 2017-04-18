@@ -278,21 +278,30 @@ randexp.js
 *** serve data via api
 json server
 
+** MOCK HTTP
+- json schema faker
+  faker, chance, regexp
+
+
+* project structure
+- organize by feature
+
 
 * production builds
+** minification
+- sourcemaps allow you to debug code in production
 
 
 * automated deploy
 
-* WORK
-** last time
-- working on the template environment for the microservice
+* PLAN
+- finish build stuff - video  << TODAY >>
+- RESTful Web API Design with Node.js - Second Edition  - video 2:35 << TODAY>>
+- typescript tutorial  << start today - typescript fundamentals >>
+- jasmine tutorial
+- build micro service  -- BUILD WEDNESDAY
+- build gateway   -- build THURSDAY
 
-** was out friday and yesterday moving; been stuck dealing with the move for the past few days.
 
-** today
-continue working on the template for microservice and keep moving ahead towards the
-sprint goals
-
-- did do the demo/overview of the architecture the other day.
-- I have this next one a week from this thursday.
+- review angular
+- build angular
