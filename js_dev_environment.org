@@ -233,8 +233,29 @@ just simpulating a dom in memory not a full browser
 - travis (hosted)
 - jenkins
 
-* http requests
+* HTTP requests
+** node (server)
+- http
+- request (probably best to use)
 
+
+** browser (client)
+- XMLHttpRequest
+- jQuery
+- Framework-based
+- Fetch (probably best to use Fetch with a polyfill)
+
+
+** node and browser ( client and server)
+- isomorphic-fetch
+- xhr (package on npm)
+- SuperAgent
+- Axios
+
+
+
+
+** centralize API calls
 
 * production builds
 
